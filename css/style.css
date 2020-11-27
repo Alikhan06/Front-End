@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid purple;
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+.box:hover{
+    width: 220px;
+    height: 220px;
+    background-color: green;
+    transition: 0.5s;
+    background: url('');
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
